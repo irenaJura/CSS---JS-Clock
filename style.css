@@ -34,13 +34,48 @@ html {
     transform: translateY(-3px); /* account for the height of the clock hands */
   }
   .hand {
-    width: 50%;
+    width: 45%;
     height: 6px;
     background: black;
     position: absolute;
-    top: 50%;
+    top: 45%;
+    left: 5%;
     transform-origin: 100%; /* along x-axis pivot point on right side */
     transform: rotate(90deg); /* set the hands vertical */
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+
+  .hour-hand {
+      width: 35%;
+      left: 15%;
+  }
+
+  .min-hand {
+      width: 40%;
+      left: 10%;
+  }
+  .number {
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+  }
+
+  .three {
+      right: 0;
+      top: 42%;
+  }
+
+  .six {
+      left: 48%;
+      bottom: 0;
+  }
+
+  .nine {
+      top: 42%;
+      left: 0;
+  }
+
+  .twelve {
+      left: 46%;
   }
