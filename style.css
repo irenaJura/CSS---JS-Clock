@@ -40,7 +40,7 @@ html {
     position: absolute;
     top: 50%;
     transform-origin: 100%; /* along x-axis pivot point on right side */
-    transform: rotate(90deg); /* set the hands vertically */
+    transform: rotate(90deg); /* set the hands vertical */
     transition: all 0.05s;
-    transition-timing-function: cubic-bezier(0.1, 2.7, 0.160.585, 1);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
