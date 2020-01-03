@@ -1,7 +1,7 @@
 html {
     background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
     background-size: cover;
-    font-family: 'helvetica neue';
+    font-family: 'Heebo', sans-serif;
     text-align: center;
     font-size: 10px;
   }
@@ -9,10 +9,12 @@ html {
     margin: 0;
     font-size: 2rem;
     display: flex;
+    -webkit-display: flex;
     flex: 1;
     min-height: 100vh;
     align-items: center;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
   }
   .clock {
     width: 30rem;
@@ -64,7 +66,7 @@ html {
 
   .three {
     right: 0;
-    top: 42%;
+    top: 40%;
   }
 
   .six {
@@ -73,12 +75,12 @@ html {
   }
 
   .nine {
-    top: 42%;
+    top: 40%;
     left: 0;
   }
 
   .twelve {
-    left: 46%;
+    left: 45%;
   }
 
   .real-time {
