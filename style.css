@@ -12,6 +12,7 @@ html {
     flex: 1;
     min-height: 100vh;
     align-items: center;
+    flex-wrap: wrap;
   }
   .clock {
     width: 30rem;
@@ -47,13 +48,13 @@ html {
   }
 
   .hour-hand {
-      width: 35%;
-      left: 15%;
+    width: 35%;
+    left: 15%;
   }
 
   .min-hand {
-      width: 40%;
-      left: 10%;
+    width: 40%;
+    left: 10%;
   }
   .number {
     font-weight: bold;
@@ -62,20 +63,35 @@ html {
   }
 
   .three {
-      right: 0;
-      top: 42%;
+    right: 0;
+    top: 42%;
   }
 
   .six {
-      left: 48%;
-      bottom: 0;
+    left: 48%;
+    bottom: 0;
   }
 
   .nine {
-      top: 42%;
-      left: 0;
+    top: 42%;
+    left: 0;
   }
 
   .twelve {
-      left: 46%;
+    left: 46%;
+  }
+
+  .real-time {
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    border: 10px solid;
+    padding: 15px;
+    box-shadow:
+      0 0 0 4px rgba(0,0,0,0.1),
+      inset 0 0 0 3px #EFEFEF,
+      inset 0 0 10px black,
+      0 0 10px rgba(0,0,0,0.2);
   }

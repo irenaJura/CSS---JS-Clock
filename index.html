@@ -48,6 +48,10 @@
       } else {
         allHands.forEach(hand => hand.style.transition = '') /* reset the styling */
       }
+
+      /* add digital clock */
+      const realTime = document.querySelector('.real-time');
+      realTime.innerHTML = `${hours} : ${mins} : ${seconds}`;
     }
       setInterval(setDate, 1000);
 
